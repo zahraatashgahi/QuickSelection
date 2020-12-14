@@ -1,6 +1,6 @@
 ## Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders
 This repository contains code for the paper, Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders by Zahra Atashgahi, Ghada Sokar, Tim van der Lee, Elena Mocanu, Decebal Constantin Mocanu, Raymond Veldhuis, and Mykola Pechenizkiy. 
-
+For more information please read the paper at https://arxiv.org/abs/2012.00560. 
 
 ### Prerequisites
 We run this code on Python 3. Following Python packages have to be installed before executing the project code:
