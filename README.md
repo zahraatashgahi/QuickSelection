@@ -31,6 +31,7 @@ But if you are on Windows, please change the back-propagation method in the ```S
 
 ### Results on MNIST
 On the MNIST dataset, first, we train the sparse-denoising-autoencoder (sparse-DAE). Then, we select the 50 most important features using the strength of the input neurons of the trained sparse-DAE. We visualize the features selected for each class separately. In Figure below, each picture at different epochs is the average of the 50 selected features of all the samples of each class along with the average of the actual samples of the corresponding class. As we can see, during training, these features become more similar to the pattern of digits of each class. Thus, QuickSelection is able to find the most relevant features for all classes.
+
 ![mnist](https://github.com/zahraatashgahi/QuickSelection/blob/main/mnist.JPG)
 
 ### Reference
