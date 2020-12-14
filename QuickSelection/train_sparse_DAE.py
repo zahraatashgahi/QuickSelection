@@ -1,3 +1,25 @@
+### Reference
+#If you use this code, please consider citing the following paper:
+#
+#@misc{atashgahi2020quick,
+#      title={Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders}, 
+#      author={Zahra Atashgahi and Ghada Sokar and Tim van der Lee and Elena Mocanu and Decebal Constantin Mocanu and Raymond Veldhuis and Mykola Pechenizkiy},
+#      year={2020},
+#      eprint={2012.00560},
+#      archivePrefix={arXiv},
+#      primaryClass={cs.LG}
+#}
+
+### Acknowledgements
+#Starting of the code is "sparse-evolutionary-artificial-neural-networks" which is available at:
+#https://github.com/dcmocanu/sparse-evolutionary-artificial-neural-networks
+#@article{Mocanu2018SET, 
+#        author = {Mocanu, Decebal Constantin and Mocanu, Elena and Stone, Peter and Nguyen, Phuong H. and Gibescu, Madeleine and Liotta, Antonio}, 
+#        journal = {Nature Communications}, 
+#        title = {Scalable Training of Artificial Neural Networks with Adaptive Sparse Connectivity inspired by Network Science}, 
+#        year = {2018}, doi = {10.1038/s41467-018-04316-3}, 
+#        url = {https://www.nature.com/articles/s41467-018-04316-3 }}
+#
 
 import os
 import numpy as np
