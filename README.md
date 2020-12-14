@@ -15,7 +15,7 @@ To run the code you can use the following lines:
 1. select dataset and the number of trining epochs: 
     ```sh
     dataset="madelon"
-    epochs=100
+    epoch=100
     ```
 2. Train sparse-DAE:
     ```sh
