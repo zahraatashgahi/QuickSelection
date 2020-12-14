@@ -29,6 +29,10 @@ There are two implementations for back-propagation in ```Sparse_DAE.py```.
 If you are running this code on Linux and you want to exploit fast implementation, you can use Cython to run it. You need to first install ```sparseoperation```. Use the following line to install it on your environment:```cythonize -a -i ./QuickSelection/sparseoperations.pyx```.
 But if you are on Windows, please change the back-propagation method in the ```Sparse_DAE.py``` file. Please note that the running time will be much higher. More details can be found there.
 
+### Results on MNIST
+On the MNIST dataset, first, we train the sparse-denoising-autoencoder (sparse-DAE). Then, we select the 50 most important features using the strength of the input neurons of the trained sparse-DAE. We visualize the features selected for each class separately. In Figure below, each picture at different epochs is the average of the 50 selected features of all the samples of each class along with the average of the actual samples of the corresponding class. As we can see, during training, these features become more similar to the pattern of digits of each class. Thus, QuickSelection is able to find the most relevant features for all classes.
+![mnist](https://github.com/zahraatashgahi/QuickSelection/blob/main/mnist.JPG)
+
 ### Reference
 If you use this code, please consider citing the following paper:
 ```
