@@ -1,3 +1,15 @@
+### Reference
+#If you use this code, please consider citing the following paper:
+#
+#@misc{atashgahi2020quick,
+#      title={Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders}, 
+#      author={Zahra Atashgahi and Ghada Sokar and Tim van der Lee and Elena Mocanu and Decebal Constantin Mocanu and Raymond Veldhuis and Mykola Pechenizkiy},
+#      year={2020},
+#      eprint={2012.00560},
+#      archivePrefix={arXiv},
+#      primaryClass={cs.LG}
+#}
+
 import numpy as np
 import os; import sys; sys.path.append(os.getcwd())
 from utils import load_data, check_path
