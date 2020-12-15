@@ -73,9 +73,7 @@ def evaluation(X_selected, n_clusters, y):
     acc: {float}
         Accuracy
     """
-    k_means = KMeans(n_clusters=n_clusters, init='k-means++', n_init=10, max_iter=300,
-                     tol=0.0001, precompute_distances=True, verbose=0,
-                     random_state=None, copy_x=True, n_jobs=1)
+    k_means = KMeans(n_clusters=n_clusters)
 
     k_means.fit(X_selected)
     y_predict = k_means.labels_
