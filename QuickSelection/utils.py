@@ -36,22 +36,7 @@ def load_data(name):
         X_test =  np.loadtxt(urllib2.urlopen(val_data_url))
         y_test =  np.loadtxt(urllib2.urlopen(val_resp_url))
         scaler = preprocessing.StandardScaler().fit(X_train)
-        
-    elif name=="isolet":
-        import pandas as pd 
-        data= pd.read_csv('./datasets/isolet.csv')
-        data = data.values 
-        X = data[:,:-1]
-        X = X.astype("float")
-        y = data[:,-1]
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=42) 
-        for i in range(len(y_train)):
-            y_train[i] = int(y_train[i][1])
-        for i in range(len(y_test)):
-            y_test[i] = int(y_test[i][1])
-        y_train = y_train.astype("float")
-        y_test = y_test.astype("float")
-        scaler = preprocessing.StandardScaler().fit(X_train)
+
         
     elif name=="har":         
         X_train = np.loadtxt('./datasets/UCI HAR Dataset/train/X_train.txt')
