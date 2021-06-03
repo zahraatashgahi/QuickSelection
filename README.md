@@ -12,7 +12,7 @@ We run this code on Python 3. Following Python packages have to be installed bef
 
 ### Usage
 To run the code you can use the following lines:
-1. select dataset and the number of trining epochs: 
+1. select dataset and the number of training epochs: 
     ```sh
     dataset="madelon"
     epoch=100
