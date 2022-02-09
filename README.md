@@ -1,6 +1,6 @@
 ## Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders
-This repository contains code for the paper, Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders by Zahra Atashgahi, Ghada Sokar, Tim van der Lee, Elena Mocanu, Decebal Constantin Mocanu, Raymond Veldhuis, and Mykola Pechenizkiy. 
-For more information please read the paper at https://arxiv.org/abs/2012.00560. 
+This repository contains code for the paper, Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders by Zahra Atashgahi, Ghada Sokar, Tim van der Lee, Elena Mocanu, Decebal Constantin Mocanu, Raymond Veldhuis, and Mykola Pechenizkiy.  This work is published in the Machine Learning journal (ECML-PKDD 2022 journal track).
+For more information please read the paper at https://arxiv.org/abs/2012.00560 or https://link.springer.com/article/10.1007/s10994-021-06063-x. 
 
 ### Prerequisites
 We run this code on Python 3. Following Python packages have to be installed before executing the project code:
@@ -37,14 +37,15 @@ On the MNIST dataset, first, we train the sparse-denoising-autoencoder (sparse-D
 ### Reference
 If you use this code, please consider citing the following paper:
 ```
-@misc{atashgahi2020quick,
-      title={Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders}, 
-      author={Zahra Atashgahi and Ghada Sokar and Tim van der Lee and Elena Mocanu and Decebal Constantin Mocanu and Raymond Veldhuis and Mykola Pechenizkiy},
-      year={2020},
-      eprint={2012.00560},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@article{atashgahi2021quick,
+  title={Quick and robust feature selection: the strength of energy-efficient sparse training for autoencoders},
+  author={Atashgahi, Zahra and Sokar, Ghada and van der Lee, Tim and Mocanu, Elena and Mocanu, Decebal Constantin and Veldhuis, Raymond and Pechenizkiy, Mykola},
+  journal={Machine Learning},
+  pages={1--38},
+  year={2021},
+  publisher={Springer}
 }
+
 ```
 ### Acknowledgements
 Starting of the code is "sparse-evolutionary-artificial-neural-networks" which is available at:
